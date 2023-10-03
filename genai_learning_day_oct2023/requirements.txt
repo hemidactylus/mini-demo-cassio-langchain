@@ -1,0 +1,7 @@
+unstructured <-- NO?
+langchain
+openai
+cassio
+tiktoken
+jupyter
+html2text

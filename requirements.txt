@@ -1,0 +1,5 @@
+git+https://github.com/cassioML/cassio@dev-sl-init-extractors#egg=cassio
+git+https://github.com/hemidactylus/langchain@updated-full-preview-remove-shims#egg=langchain&subdirectory=libs/langchain
+openai
+tiktoken
+jupyter==1.0.0
