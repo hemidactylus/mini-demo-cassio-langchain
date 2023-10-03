@@ -25,3 +25,27 @@ Then you can run the present `demo1` notebook.
 This is the simplest QA ever to show the mechanism.
 
 Open the `demo2` notebook and run all cells.
+
+## Demo 3: LangChain, agents
+
+This shows something more convoluted
+(and less trivial to do without a framework):
+an agent repeatedly taking actions after observations
+in a ReACT pattern.
+
+Open the `demo3` notebook and run all cells.
+
+## Demo 4: LangChain, vectors
+
+A little more usages of vector stores in LangChain
+(metadata filtering and MMR retrieval).
+
+The pre-requisite is to have done `demo2`, so the store is not empty.
+
+Open the `demo4` notebook and run the cells.
+
+## Demo 5: LlamaIndex, vectors
+
+This is the LlamaIndex equivalent of Demo 4: inserting documents into a vector store and querying it in various ways.
+
+No pre-requisites, just open the notebook and run it end-to-end.
