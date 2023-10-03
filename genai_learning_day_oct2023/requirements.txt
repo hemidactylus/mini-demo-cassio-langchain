@@ -1,7 +1,7 @@
-unstructured <-- NO?
-langchain
-openai
-cassio
-tiktoken
-jupyter
-html2text
+# unstructured <-- NO?
+cassio==0.1.3
+html2text==2020.1.16
+jupyter==1.0.0
+langchain==0.0.306
+openai==0.28.1
+tiktoken==0.5.1

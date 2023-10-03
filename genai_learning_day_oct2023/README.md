@@ -11,6 +11,8 @@ Spin a notebook with `jupyter notebook` in the shell where you sourced the `.env
 
 ## Demo 1: Without Frameworks
 
+> _Note_: if you want to use a keyspace other than the default one for the DB, make sure you tweak running the prerequisites to point to that one as well (i.e. pass `keyspace='...'` explicitly in the `cassio.init(...)` call there as well). Check with the CQL console that the tables are created in the right keyspace.
+
 **Prerequisite**:
 populate the "philosopher" non-partitioned quote vector store
 by running [this Colab](https://colab.research.google.com/github/openai/openai-cookbook/blob/main/examples/vector_databases/cassandra_astradb/Philosophical_Quotes_cassIO.ipynb) up to and including the
@@ -21,3 +23,5 @@ Then you can run the present `demo1` notebook.
 ## Demo 2: LangChain, QA
 
 This is the simplest QA ever to show the mechanism.
+
+Open the `demo2` notebook and run all cells.
